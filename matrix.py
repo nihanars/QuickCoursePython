@@ -15,3 +15,10 @@ def multiplyNumbers(mul):
     print("Multiplication of these numbers:",total)
 
 multiplyNumbers(matrix)
+
+for line in range(6):
+    for space in range(line):
+        print(" ",end="")
+    for number in range(5):
+        print(line+3,end="")
+    print()
